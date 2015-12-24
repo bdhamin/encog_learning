@@ -98,7 +98,7 @@ public class IrisEncog {
         do {
             train.iteration();
 //            System.out.printf("Epoch : %d Error : %f", epoch, train.getError());
-            System.out.println("Epoch: " + epoch +  "Error: " + train.getError());
+            System.out.println("Epoch: " + epoch +  "ErrorT: " + train.getError());
             epoch++;
         }while (train.getError() > 0.01);
 
